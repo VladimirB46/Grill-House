@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function() {
             };
         };
 
-        // hightlight current scrolled section in nav
+        // highlight current scrolled section in nav
         const scrollSections = document.querySelectorAll('.scroll-section');
         var scrollValue = document.documentElement.scrollTop;
         var activeSection;
